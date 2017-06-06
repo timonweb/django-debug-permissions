@@ -14,9 +14,9 @@ setup(
     author="Tim Kamanin",
     author_email='tim@timonweb.com',
     url='https://github.com/timonweb/django-debug-permissions',
-    packages=find_packages(),
-    package_dir={'debug_permissions'},
+    packages=['debug_permissions'],
     include_package_data=True,
+    package_data={'': ['README.md']},
     install_requires=[
         'Django'
     ],
@@ -36,6 +36,6 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.6'
     ]
 )
