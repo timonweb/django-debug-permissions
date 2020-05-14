@@ -6,7 +6,7 @@ This app adds a single manage.py command that lists all user permissions availab
 ## Supported versions
 Haven't tested it with earlier version, but the app works for sure with:
 
-  * Django: 1.11
+  * Django: 1.11+
   * Python: 3.4+
 
 ## Installation
